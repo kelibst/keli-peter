@@ -1,28 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title> KELI-PETER Tribute Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="tribute_page.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
-
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div id="progress-container-2">
+      <div id="progress-container-1">
+        <h3>
+          Keli - Peter Tribute Page
+        </h3>
+        <meter id="progress" min="0" max="100" value="0">Meter not supported.</meter> <span id="progressFigure" style="line-height:3em;"> 0%</span>
+        <br />
+        <em><span id="loading"> Loading </span><span id="dots">.</span></em>
+      </div>
+    </div>
+    <div id="doc-container" class="col-12">
+      <h1>
+        Steve Jobs
+      </h1>
+      <div id="image-and-caption" class="col-12">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Steve_Jobs_WWDC07.jpg" alt="Steve Jobs" class="col-5" />
 
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <p>Hello World, we are software Developers!</p>
-    
-    <script  src="js/index.js"></script>
+        <span style="line-height:50%;"> Steve Jobs Photo: Wikicommons</span>
+      </div>
+      <div id="texts-body" class="col-12">
+        <h2>
+          Founding and Leaving Apple
+        </h2>
+        <p>
+          In 1976, when Jobs was just 21, he and Wozniak started Apple Computer in the Jobs’ family garage. They funded their entrepreneurial venture by Jobs selling his Volkswagen bus and Wozniak selling his beloved scientific calculator. Jobs and Wozniak are credited with revolutionizing the computer industry with Apple by democratizing the technology and making machines smaller, cheaper, intuitive and accessible to everyday consumers.</p>
+        <p>Wozniak conceived of a series of user-friendly personal computers, and — with Jobs in charge of marketing — Apple initially marketed the computers for $666.66 each. The Apple I earned the corporation around $774,000. Three years after the release of Apple's second model, the Apple II, the company's sales increased by 700 percent to $139 million.</p>
+        <p>In 1980, Apple Computer became a publicly-traded company, with a market value of $1.2 billion by the end of its very first day of trading. Jobs looked to marketing expert John Sculley of Pepsi-Cola to take over the role of CEO for Apple.</p>
+        
+      </div>
+    </div>
+    <script type="text/javascript" src="tribute_page.js"></script>
   </body>
 </html>
