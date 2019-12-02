@@ -8,6 +8,10 @@
         top: 0;
         
     }
+    #main-doc{
+        width: 70%;
+        float: right;
+    }
 }
 @media only screen and (max-width: 600px) {
     body {
