@@ -1,16 +1,30 @@
-
+header{
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+.navul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
 @media only screen and (min-width: 992px) {
     #navbar{
-        width: 30%;
+        width: 20%;
         display: flex;
         float: left;
         position: fixed;
         top: 0;
-        
+        margin: 1rem;
     }
     #main-doc{
         width: 70%;
         float: right;
+        margin: 1rem auto;
     }
 }
 @media only screen and (max-width: 600px) {
